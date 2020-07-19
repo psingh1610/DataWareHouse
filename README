@@ -1,0 +1,12 @@
+A music streaming startup, Sparkify, has grown their user base and song database and want to move their processes and data onto the cloud.
+Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
+
+Objective:This project builds an ETL pipeline to extract data from S3, stage them in Redshift,
+and transform data into a set of dimensional tables for their analytics team to continue finding insights in what songs their users are listening to.
+
+
+Createtable: This creates fact and dimension tables and create staging tables which loads data from S3 to staging tables to finally load it in Redshift
+
+etl: This loads data from S3 to stage data in redshift and then transform into dimensional tables.
+
+
